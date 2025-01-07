@@ -1,4 +1,4 @@
-import { HandShake, Globe } from "lucide-react";
+import { Handshake, Globe } from "lucide-react";
 
 export const Mission = () => {
   return (
@@ -7,7 +7,7 @@ export const Mission = () => {
       <div className="container px-4 mx-auto">
         <div className="max-w-4xl mx-auto text-center scroll-section">
           <div className="flex justify-center mb-8">
-            <HandShake className="w-16 h-16 text-primary" />
+            <Handshake className="w-16 h-16 text-primary" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
             Our Mission
@@ -29,7 +29,7 @@ export const Mission = () => {
             </div>
             <div className="glass-card p-8 rounded-lg relative group hover:scale-105 transition-transform duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-lg -z-10" />
-              <HandShake className="w-10 h-10 text-primary mb-4" />
+              <Handshake className="w-10 h-10 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-4">AI-Guided Collaboration</h3>
               <p className="text-muted-foreground">
                 Intelligent, ethical agents provide actionable recommendations for strategic impact.
